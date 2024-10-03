@@ -1,0 +1,52 @@
+Nombre del juego de pruebas: Kenken del día
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Mirar ranking vacío.
+
+Pasos:
+
+1. Asegurar que el directorio data/users/ está vacío.
+2. Ir a "Action" > "View ranking".
+3. Carga la pantalla vacía.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Mirar ranking con un usuario.
+
+Pasos:
+
+1. Asegurar que el directorio data/users/ está vacío.
+1. Ir a "Account" > "Register".
+2. Resolver el formulario con los datos correctos.
+4. Ir a "Action" > "View ranking".
+5. Carga la pantalla con un único usuario con 0 puntos.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+Descripción: Mirar ranking con un usuario con puntos.
+
+Pasos:
+
+1. Asegurar que el directorio data/users/ está vacío.
+1. Ir a "Account" > "Register".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start ranked game"
+4. Resolver el kenken.
+4. Ir a "Action" > "View ranking".
+5. Carga la pantalla con un único usuario con una cantidad de puntos.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+Descripción: Mirar ranking con varios usuarios.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Resolver el formulario con los datos correctos.
+4. Ir a "Action" > "View ranking".
+5. Carga la pantalla con los usuarios anteriores y el nuevo con 0 puntos.

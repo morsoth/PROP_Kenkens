@@ -1,0 +1,12 @@
+Directori on es troba els jocs de prova de l'aplicació amb l'explicació de què ha de fer i els passos per reproduir-ho.
+
+FITXERS
+
+- creacion_de_kenkens.txt
+- generacion_de_kenkens.txt
+- gestión_de_sesiones_de_usuarios.txt
+- guardar_y_cargar_partida.txt
+- importar_y_cargar_kenkens.txt
+- kenken_del_dia.txt
+- ranking.txt
+- resolucion_de_kenkens.txt

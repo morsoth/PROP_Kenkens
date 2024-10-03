@@ -1,0 +1,51 @@
+Nombre del juego de pruebas: Resolucion de kenkens
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Resolver un kenken generado por el sistema.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático", un tamaño de 9 y todas las operaciones válidas. Apretar "Aceptar".
+3. Ir a "Game" > "Solve Kenken".
+4. Comprobar que el sistema muestra la solución del kenken.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Resolver un kenken con números correctos ya colocados.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático", un tamaño de 3 y todas las operaciones válidas. Apretar "Aceptar".
+3. Colocar algun valor correcto en una casilla.
+4. Ir a "Game" > "Solve Kenken".
+5. Comprobar que el sistema muestra la solución del kenken.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+Descripción: Resolver un kenken con números incorrectos colocados.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático", un tamaño de 3 y todas las operaciones válidas. Apretar "Aceptar".
+3. Colocar algun valor incorrecto en una casilla.
+4. Ir a "Game" > "Solve Kenken".
+5. Comprobar que se muestra un error conforme no existe una solución a ese kenken.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+Descripción: Resolver una partida clasificatoria.
+
+Pasos:
+
+1. Iniciar sesión con una cuenta con puntos.
+2. Ir a "Action" > "Start ranked game".
+3. Ir a "Game" > "Solve Kenken".
+4. Comprobar que el sistema muestra la solución del kenken y resta 1000 puntos del usuario.

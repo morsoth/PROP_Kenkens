@@ -1,0 +1,61 @@
+Nombre del juego de pruebas: Generación de kenkens
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Generar un kenken de 6x6 con todas las operaciones válidas.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático", un tamaño de 6 y todas las operaciones válidas. Apretar "Aceptar".
+3. Comprobar que el kenken se ha generado correctamente.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Generar un kenken de 9x9 con todas las operaciones válidas.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático", un tamaño de 9 y todas las operaciones válidas. Apretar "Aceptar".
+3. Comprobar que el kenken se ha generado correctamente.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+Descripción: Generar un kenken de 9x9 con sólo la multiplicación y la resta como operaciones válidas.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático" y un tamaño de 9.
+3. Selecionar sólo las casillas de multiplicación y resta como operaciones válidas.
+4. Apretar "Aceptar".
+5. Comprobar que el kenken se ha generado correctamente y con sólo regiones de multiplicación y resta.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+Descripción: Generar un kenken de 5x5 con sólo la resta, la división, el módulo y la potencia como operaciones válidas.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático" y un tamaño de 9.
+3. Selecionar sólo las casillas de resta, división, módulo y potencia como operaciones válidas.
+4. Apretar "Aceptar".
+5. Comprobar que las regiones tienen como máximo 2 casillas (ya que estas operaciones tienen como requisito regiones de exactamente dos casillas).
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 5
+Descripción: Intentar generar un kenken con sólo sumas como operaciones válidas.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game".
+2. Seleccionar modo "Automático" y un tamaño de 9.
+3. Intentar selecionar sólo la casilla de suma como operación válida.
+4. Comprobar que no es posible seleccionar únicamente una operación como válida.

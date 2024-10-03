@@ -1,0 +1,28 @@
+Nombre del juego de pruebas: Kenken del día
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Jugar al kenken del día y resolverlo manualmente.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start daily kenken".
+4. Resolver manualmente el kenken.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Jugar al kenken del día e intentar resolver automáticamente.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start daily kenken".
+4. Ir a "Game" > "Solve Kenken".
+5. Saltará un aviso con el mensaje "Solution not available for daily kenken".
+
+-------------------------------------------------------------------------------------------------------------------

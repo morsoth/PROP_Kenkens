@@ -1,0 +1,106 @@
+Nombre del juego de pruebas: Guardar y cargar partida
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+
+Descripción: Interntar cargar partida no guardada.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Resume last game".
+4. Saltará un aviso con el mensaje "ou have no saved game".
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+
+Descripción: Jugar partida, guardarla, salir y reanudarla.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start new game".
+4. Generar un kenken automático.
+5. Llenar algunas casillas del kenken.
+6. Ir a "Game" > "Save current game".
+7. Saltará un aviso con el mensaje "Game saved."
+8. Ir a "Game" > "Leave current game".
+9. Ir a "Action" > "Resume last game".
+10. Se cargará la partida guardada anteriormente.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+
+Descripción: Jugar partida, guardarla, salir y reanudarla, salir, crear nueva partida, salir y reanudar la nueva.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start new game".
+4. Generar un kenken automático.
+5. Llenar algunas casillas del kenken.
+6. Ir a "Game" > "Save current game".
+7. Saltará un aviso con el mensaje "Game saved."
+8. Ir a "Game" > "Leave current game".
+9. Ir a "Action" > "Resume last game".
+10. Se cargará la partida guardada anteriormente.
+11. Ir a "Game" > "Leave current game".
+12. Ir a "Action" > "Start new game".
+13. Generar un kenken automático.
+14. Llenar algunas casillas del kenken.
+15. Ir a "Game" > "Save current game".
+16. Saltará un aviso con el mensaje "Game saved."
+17. Ir a "Game" > "Leave current game".
+18. Ir a "Action" > "Resume last game".
+19. Se cargará la partida guardada más reciente.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+
+Descripción: Jugar partida, guardarla, salir y reanudarla, salir, y reanudarla de nuevo.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start new game".
+4. Generar un kenken automático.
+5. Llenar algunas casillas del kenken.
+6. Ir a "Game" > "Save current game".
+7. Saltará un aviso con el mensaje "Game saved."
+8. Ir a "Game" > "Leave current game".
+9. Ir a "Action" > "Resume last game".
+10. Se cargará la partida guardada anteriormente.
+11. Ir a "Game" > "Leave current game".
+12. Ir a "Action" > "Resume last game".
+13. Se cargará de nuevo la partida guardada.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 5
+
+Descripción: Jugar partida, guardarla, salir, crear una nueva, salir y reanudar la primera.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Resolver el formulario con los datos correctos.
+3. Ir a "Action" > "Start new game".
+4. Generar un kenken automático.
+5. Llenar algunas casillas del kenken.
+6. Ir a "Game" > "Save current game".
+7. Saltará un aviso con el mensaje "Game saved."
+8. Ir a "Game" > "Leave current game".
+9. Ir a "Action" > "Start new game".
+10. Generar un kenken automático.
+11. Llenar algunas casillas del kenken.
+12. Ir a "Game" > "Leave current game".
+13. Ir a "Action" > "Resume last game".
+14. Se cargará de nuevo la partida guardada al principio.

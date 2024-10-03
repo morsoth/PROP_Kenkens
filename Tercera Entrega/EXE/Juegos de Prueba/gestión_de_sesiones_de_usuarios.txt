@@ -1,0 +1,86 @@
+Nombre del juego de pruebas: Gestión de sesiones de usuarios
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Crear una cuenta no registrada en el sistema.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Introducir "nuevo_usuario" como "Nombre".
+3. Introducir "12345678" como "Contraseña".
+4. Apretar "Aceptar".
+5. Comprobar que tu nombre aparece en la esquina superior derecha de la ventana junto con tu puntos (en esta caso 0 por ser una cuenta nueva).
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Crear una cuenta ya registrada en el sistema.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+3. Apretar "Aceptar".
+4. Ir a "Account" > "Register".
+5. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+6. Apretar "Aceptar".
+7. Comprobar que aparece un error conforme ya existe un usuario con ese nombre en el sistema.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+Descripción: Crear una cuenta con contraseña con menos de 8 carácteres.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Introducir "nuevo_usuario" como "Nombre".
+3. Introducir "1234" como "Contraseña".
+4. Apretar "Aceptar".
+5. Comprobar que aparece un error conforme la contraseña es demasiado corta.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+Descripción: Iniciar sesión con una cuenta registrada en el sistema.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+3. Apretar "Aceptar".
+4. Ir a "Account" > "Login".
+5. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+6. Apretar "Aceptar".
+7. Comprobar que tu nombre aparece en la esquina superior derecha de la ventana junto con tu puntos.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 4
+Descripción: Iniciar sesión con una cuenta no registrada en el sistema.
+
+Pasos:
+
+1. Ir a "Account" > "Login".
+2. Introducir "nuevo_usuario_1" como "Nombre".
+3. Introducir "12345678" como "Contraseña".
+4. Apretar "Aceptar".
+5. Comprobar que aparece un error conforme no existe un usuario con ese nombre en el sistema.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 5
+Descripción: Cerrar sesión.
+
+Pasos:
+
+1. Ir a "Account" > "Register".
+2. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+3. Apretar "Aceptar".
+4. Ir a "Account" > "Login".
+5. Introducir "nuevo_usuario" como "Nombre" y "12345678" como "Contraseña".
+6. Apretar "Aceptar".
+1. Ir a "Account" > "Logout".
+5. Comprobar que el nombre desaparece de la esquina superior derecha.

@@ -1,0 +1,74 @@
+Nombre del juego de pruebas: Creación de kenkens
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+Descripción: Crear un kenken de 3x3 y ponerlo en juego.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game" y un tamaño de 3.
+2. Seleccionar modo "Manual". Apretar "Aceptar".
+3. Presionar la primera casilla e introducir el número '1'.
+4. Repetir el proceso hasta rellenar el tablero tal que quede:
+    1 2 3
+    3 1 2
+    2 3 1
+5. Ir a "Edit" > "Start creating regions".
+6. Selecionar la casilla (0,0), (0,1) y (0,2) e ir a "Create region" > "Addition".
+7. Selecionar la casilla (1,0), (1,1) y (1,2) e ir a "Create region" > "Multiplication".
+8. Selecionar la casilla (2,0), (2,1) y (2,2) e ir a "Create region" > "Addition".
+9. Ir a "Edit" > "Finish" > "Play".
+10. Comprobar que se inicia correctamente la partida con el kenken creado.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+Descripción: Crear un kenken de 3x3 y guardarlo en el sistema.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game" y un tamaño de 3.
+2. Seleccionar modo "Manual". Apretar "Aceptar".
+3. Presionar la primera casilla e introducir el número '1'.
+4. Repetir el proceso hasta rellenar el tablero tal que quede:
+    1 2 3
+    3 1 2
+    2 3 1
+5. Ir a "Edit" > "Start creating regions".
+6. Selecionar la casilla (0,0), (0,1) y (0,2) e ir a "Create region" > "Addition".
+7. Selecionar la casilla (1,0), (1,1) y (1,2) e ir a "Create region" > "Multiplication".
+8. Selecionar la casilla (2,0), (2,1) y (2,2) e ir a "Create region" > "Addition".
+9. Ir a "Edit" > "Finish" > "Save".
+10. Recordar la id del kenken guardado.
+11. Ir a "Action" > "Load from system".
+12. Comprobar que existe un kenken con la id del kenken.
+13. Seleccionar la id.
+14. Comprobar que se inicia correctamente la partida con el kenken creado anteriormente.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 3
+Descripción: Crear un kenken de 3x3, guardarlo en el sistema y ponerlo en juego.
+
+Pasos:
+
+1. Ir a "Action" > "Start new game" y un tamaño de 3.
+2. Seleccionar modo "Manual". Apretar "Aceptar".
+3. Presionar la primera casilla e introducir el número '1'.
+4. Repetir el proceso hasta rellenar el tablero tal que quede:
+    1 2 3
+    3 1 2
+    2 3 1
+5. Ir a "Edit" > "Start creating regions".
+6. Selecionar la casilla (0,0), (0,1) y (0,2) e ir a "Create region" > "Addition".
+7. Selecionar la casilla (1,0), (1,1) y (1,2) e ir a "Create region" > "Multiplication".
+8. Selecionar la casilla (2,0), (2,1) y (2,2) e ir a "Create region" > "Addition".
+9. Ir a "Edit" > "Finish" > "Save and Play".
+10. Recordar la id del kenken guardado.
+11. Comprobar que se inicia correctamente la partida con el kenken creado.
+12. Ir a "Game" > "Leave current game".
+13. Ir a "Action" > "Load from system".
+14. Comprobar que existe un kenken con la id del kenken.
+15. Seleccionar la id.
+16. Comprobar que se inicia correctamente la partida con el kenken creado anteriormente.

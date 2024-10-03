@@ -1,0 +1,30 @@
+
+Nombre del juego de pruebas: Importar y cargar kenkens
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 1
+
+Descripción: Intentar cargar un fichero que no es *.ken.
+
+Pasos:
+
+1. Ir a "Action" > "Import from file".
+2. Seleccionar un fichero que no tenga la extensión .ken.
+3. El botón de "Accept" se desactiva impidiendo cargar el fichero en la base de datos.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nº de prueba: 2
+
+Descripción: Cargar un fichero *.ken.
+
+Pasos:
+
+1. Ir a "Action" > "Import from file".
+2. Seleccionar un fichero que tenga la extensión .ken.
+3. Darle al botón "Accept".
+4. Saltará un aviso con el mensaje "Kenken saved as: (código aleatorio generado)".
+
+-------------------------------------------------------------------------------------------------------------------
+

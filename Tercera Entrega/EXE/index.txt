@@ -1,0 +1,10 @@
+Directori on trobem els executables i els jocs de prova que s'han fet servir per provar el programa amb les funcionalitats principals i un futxer per fer proves amb un kenken correcte.
+
+FITXERS
+
+- Juegos de Prueba/
+- classes/
+- tmp/
+- run.bat
+- run.sh
+- test.ken
