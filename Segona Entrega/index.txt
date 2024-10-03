@@ -1,0 +1,4 @@
+Directori arrel de l'entrega
+
+DIRECTORIS
+- DOCS: Documents de l'entrega
