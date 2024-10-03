@@ -1,0 +1,6 @@
+Directori arrel de l'entrega
+
+DIRECTORIS
+- DOCS: Documents de l'entrega
+- EXE: Executable i jocs de prova
+- FONTS: Classes implementades
