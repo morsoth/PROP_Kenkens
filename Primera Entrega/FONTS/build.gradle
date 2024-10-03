@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'edu.upc.prop.clusterxx'
+version = '1.0-SNAPSHOT'
+buildDir = file('../EXE')
+
+ext {
+    javaMainClass = 'edu.upc.prop.clusterxx.Main'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // this is just an example of importing an external library, you do not need to use it in your project
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'org.objenesis:objenesis:3.3'
+    implementation 'net.bytebuddy:byte-buddy:1.12.16'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.mockito:mockito-core:4.9.0'
+    testImplementation 'net.bytebuddy:byte-buddy-agent:1.12.16'
+    testImplementation 'org.hamcrest:hamcrest-core:1.3'
+
+}

@@ -1,0 +1,3 @@
+Directori on trobem els executables i els jocs de prova que s'han fet servir per provar el programa amb les funcionalitats principals
+
+FITXERS
