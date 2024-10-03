@@ -1,0 +1,6 @@
+edu.upc.prop.clusterxx
+edu.upc.prop.clusterxx.domain
+edu.upc.prop.clusterxx.domain.operations
+edu.upc.prop.clusterxx.exceptions
+edu.upc.prop.clusterxx.persistence
+edu.upc.prop.clusterxx.presentation
