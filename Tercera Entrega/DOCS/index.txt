@@ -1,0 +1,12 @@
+Directori on trobem tota la documentació sobre la primera entrega
+
+FITXERS
+- Descripcion_estructuras_de_datos_y_algoritmos: document amb tota la informacio relacionada amb les decisions preses sobre les estructures de dades escollides i els algoritmes implementats.
+
+- Diagrama_de_clases_y_descripcion: document on es troba el diagrama de classes en versio disseny, la descripcio dels atributs i els metodes, i tambe els creadors de cada classe.
+
+- Diagrama_casos_de_uso_y_descripcion: document on es troba el diagrama de casos d'us i tambe la descripcio de cada un.
+
+- diagrama-de-clases.png: fotografia del diagrama de classes versio disseny.
+
+- javadoc/: documentació de las classes en javadoc.
