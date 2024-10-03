@@ -1,0 +1,16 @@
+Directori on trobem tota la documentació de la segona entrega.
+
+FITXERS
+- Descripcion_estructuras_de_datos_y_algoritmos: document amb tota la informacio relacionada amb les decisions preses sobre les estructures de dades escollides i els algoritmes implementats.
+
+- Diagrama_de_clases_y_descripcion: document on es troba els diferents diagrames de classes, els creadors de cada classe( i la descripcio de les classes amb els seus atributs i metodes).
+
+- diagrama_de_clases_(Presentacion).png: fotografia del diagrama de classes de la capa de presentació.
+
+- diagrama_de_clases_(Dominio).png: fotografia del diagrama de classes de la capa de domini.
+
+- diagrama_de_clases_(Persistencia).png: fotografia del diagrama de classes de la capa de persistencia.
+
+- diagrama_de_clases_completo.png: fotografia del diagrama de classes de la capa de persistencia.
+
+- javadoc: directori on trobem la documentacio generada amb javadoc (descripcions de les classes i els seus metodes i atributs).
